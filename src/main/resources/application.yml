@@ -1,0 +1,19 @@
+server:
+    port: 1111
+spring:
+    application:
+        name: User Document Storage Service
+
+springdoc:
+    api-docs:
+        path: /api-docs
+    swagger-ui:
+        path: /swagger-ui.html
+
+aws:
+    s3:
+        bucket-name: ${AWS_BUCKET}
+        region: ${AWS_REGION}
+        access-key: ${AWS_ACCESS_KEY}
+        secret-key: ${AWS_SECRET_KEY}
+
