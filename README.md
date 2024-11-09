@@ -100,6 +100,22 @@ Logging is handled with SLF4J and Logback. Logs include information about file u
 
 If an error occurs (e.g., file not found, upload failure), the API returns an appropriate HTTP status code along with an error message.
 
+To add a section in the `README.md` file for Swagger API documentation, you can include the following lines:
+
+---
+
+## Swagger API Documentation
+
+Once the application is up and running, you can view the API documentation via Swagger UI at the following URL:
+
+```
+http://localhost:8080/swagger-ui/index.html
+```
+
+This page will provide a user-friendly interface to explore and test the various API endpoints.
+
+---
+
 ## License
 
 This project is licensed under the MIT License. [LICENSE.md](LICENSE.md) 
