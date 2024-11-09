@@ -102,6 +102,5 @@ If an error occurs (e.g., file not found, upload failure), the API returns an ap
 
 ## License
 
-This project is licensed under the MIT License[license.md].
-
+This project is licensed under the MIT License. [LICENSE.md](LICENSE.md) 
 ---
