@@ -117,7 +117,7 @@ This page will provide a user-friendly interface to explore and test the various
 
 ---
 ### Postman
-For detailed documentation on API endpoints, request and response formats, and example requests, please refer to the Postman Collection for AWS UDSS API.
+For detailed documentation on API endpoints, request and response formats, and example requests, please refer to the [Postman Collection for AWS UDSS API](https://www.postman.com/glitch-guardians/guardians/collection/085b6kw/aws-udss-api).
 
 ---
 
