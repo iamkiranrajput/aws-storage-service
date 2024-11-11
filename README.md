@@ -104,7 +104,8 @@ To add a section in the `README.md` file for Swagger API documentation, you can 
 
 ---
 
-## Swagger API Documentation
+## API Documentation
+### Swagger
 
 Once the application is up and running, you can view the API documentation via Swagger UI at the following URL:
 
@@ -113,6 +114,10 @@ http://localhost:1111/swagger-ui/index.html
 ```
 
 This page will provide a user-friendly interface to explore and test the various API endpoints.
+
+---
+### Postman
+For detailed documentation on API endpoints, request and response formats, and example requests, please refer to the Postman Collection for AWS UDSS API.
 
 ---
 
