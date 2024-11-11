@@ -28,6 +28,7 @@ public class GlobalExceptionHandler {
                 .body(ApiResponse.error("An error occurred while accessing S3", HttpStatus.INTERNAL_SERVER_ERROR));
     }
 
+
     @ExceptionHandler(RuntimeException.class)
     public ResponseEntity<ApiResponse<String>> handleRuntimeException(RuntimeException ex) {
         logger.error("Runtime error: {}", ex.getMessage());
